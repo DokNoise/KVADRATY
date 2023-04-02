@@ -5,6 +5,12 @@ public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
+        /*Квадраты при игре в крестики-нолики занумерованы,
+        как показано на рисунке. Заданы номера трех квадратов: N1, N2, N3. Проверить, лежат ли квадраты:
+        На одной диагонали
+·       На одной вертикали
+        На одной горизонтали */
+
         int N1 = in.nextInt();
         int N2 = in.nextInt();
         int N3 = in.nextInt();
